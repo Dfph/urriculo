@@ -1,118 +1,136 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currículo Virtual</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    .container {
-      max-width: 900px;
-      margin: 30px auto;
-      background: white;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    }
-    header {
-      background-color: #4F46E5;
-      color: white;
-      padding: 40px 30px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    header img {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 3px solid white;
-    }
-    header div {
-      flex: 1;
-      margin-left: 20px;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 32px;
-    }
-    header p {
-      margin: 5px 0 0;
-      font-size: 18px;
-    }
-    section {
-      padding: 30px;
-      border-top: 1px solid #eee;
-    }
-    section h2 {
-      margin-top: 0;
-      color: #4F46E5;
-    }
-    .info-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-    .info-item {
-      margin-bottom: 15px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de David Cristian Franco Francelino</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <div class="container">
     <header>
-      <img src="tua-foto.jpg" alt="Foto de Perfil">
-      <div>
-        <h1>Teu Nome</h1>
-        <p>Profissão / Especialização</p>
-      </div>
+        <div class="container">
+            <h1>DAVID CRISTIAN FRANCO FRANCELINO</h1>
+            <p>Administrador | Especialista em Otimização de Processos</p>
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> (83) 9 99912-2493</span>
+                <span><i class="fas fa-envelope"></i> davidcristianfranco@gmail.com</span>
+                <span><i class="fas fa-map-marker-alt"></i> João Pessoa/PB</span>
+            </div>
+        </div>
     </header>
-    <section>
-      <h2>Sobre Mim</h2>
-      <p>Aqui podes escrever um breve resumo sobre ti, as tuas competências, experiências e objetivos profissionais.</p>
-    </section>
-    <section>
-      <h2>Experiência Profissional</h2>
-      <div class="info-item">
-        <strong>Empresa X</strong><br>
-        <em>Cargo - Ano de início a Ano de fim</em>
-        <p>Descrição breve das funções e responsabilidades.</p>
-      </div>
-      <div class="info-item">
-        <strong>Empresa Y</strong><br>
-        <em>Cargo - Ano de início a Ano de fim</em>
-        <p>Descrição breve das funções e responsabilidades.</p>
-      </div>
-    </section>
-    <section>
-      <h2>Formação Académica</h2>
-      <div class="info-item">
-        <strong>Universidade / Escola</strong><br>
-        <em>Curso - Anos</em>
-      </div>
-    </section>
-    <section>
-      <h2>Competências</h2>
-      <ul>
-        <li>Competência 1</li>
-        <li>Competência 2</li>
-        <li>Competência 3</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Contactos</h2>
-      <p>Email: teu.email@example.com</p>
-      <p>Telefone: +351 912 345 678</p>
-      <p>LinkedIn: linkedin.com/in/teunome</p>
-    </section>
-  </div>
+
+    <main class="container">
+        <section class="objective">
+            <h2><i class="fas fa-bullseye"></i> OBJETIVO PROFISSIONAL</h2>
+            <p>Buscar oportunidade na área administrativa, com foco em gestão de processos e análise de dados, para aplicar conhecimentos e competências em otimização e eficiência, contribuindo para o crescimento e inovação da empresa.</p>
+        </section>
+
+        <section class="summary">
+            <h2><i class="fas fa-user-tie"></i> RESUMO PROFISSIONAL</h2>
+            <p>Profissional graduado em Administração com sólida experiência em funções administrativas e atendimento ao cliente. Possui certificações em Six Sigma (Black Belt e Green Belt) e proficiência em ferramentas de análise de dados como Excel Avançado e Power BI. Demonstrando proatividade, determinação e excelentes habilidades de comunicação, busca otimizar processos e contribuir estrategicamente para o ambiente corporativo.</p>
+        </section>
+
+        <section class="experience">
+            <h2><i class="fas fa-briefcase"></i> EXPERIÊNCIA PROFISSIONAL</h2>
+            <div class="job-item">
+                <h3>Assistente Administrativo</h3>
+                <p class="company">ASP NEWPRED | 12/2025 – Atual</p>
+                <ul>
+                    <li>Responsável pela organização e controle de documentos, gestão de agendas e suporte administrativo geral.</li>
+                    <li>Atuação na otimização de fluxos de trabalho e implementação de novas ferramentas digitais para aumento da eficiência operacional.</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <h3>Auxiliar Pedagógico</h3>
+                <p class="company">Grau Técnico | 03/2024 – 12/2024</p>
+                <ul>
+                    <li>Atuação no setor acadêmico com controle de faltas, notas e justificativas no sistema Acadweb.</li>
+                    <li>Realização de atendimento a alunos (presencial e online), apoio à coordenação e organização de documentos escolares.</li>
+                    <li>Responsável por arquivos físicos/digitais, controle de VPOs e suporte em eventos e atividades escolares.</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <h3>Assistente Administrativo</h3>
+                <p class="company">DNA Pós Graduação | 08/2022 – 09/2023</p>
+                <ul>
+                    <li>Relacionamento interpessoal e suporte/atendimento ao aluno.</li>
+                    <li>Verificação de documentação e elaboração de documentos através das ferramentas Microsoft WORD, Excel, Power Point.</li>
+                    <li>Utilização das Ferramentas Google para gestão de informações e comunicação.</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <h3>Atendente de Loja</h3>
+                <p class="company">Livraria Leitura Brasil Ltda - João Pessoa | 07/2017 – 07/2022</p>
+                <ul>
+                    <li>Atendimento ao cliente, organização de produtos e apoio na reposição de mercadorias.</li>
+                    <li>Operação de caixa e suporte em eventos e promoções.</li>
+                    <li>Manutenção da loja organizada e bem apresentada, contribuindo para a experiência do cliente.</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <h3>Vendedor em Comércio Atacadista</h3>
+                <p class="company">VPLT Comércio Ltda - João Pessoa/PB | 12/2015 – 04/2016</p>
+                <ul>
+                    <li>Atendimento ao Cliente e organização de loja.</li>
+                    <li>Foco em vendas e relacionamento com clientes atacadistas.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2><i class="fas fa-graduation-cap"></i> FORMAÇÃO ACADÊMICA</h2>
+            <div class="edu-item">
+                <h3>Graduação em Administração</h3>
+                <p class="institution">Unipê | 08/2022 – 07/2024</p>
+            </div>
+            <div class="edu-item">
+                <h3>Técnico de Transações Imobiliárias</h3>
+                <p class="institution">Escola São Vicente de Paula | 2023 – Atual</p>
+            </div>
+        </section>
+
+        <section class="certifications">
+            <h2><i class="fas fa-certificate"></i> CERTIFICAÇÕES E CURSOS COMPLEMENTARES</h2>
+            <ul>
+                <li><strong>Black Belt Six Sigma</strong> | RL&Associados | 10/2022</li>
+                <li><strong>Green Belt Six Sigma</strong> | RL&Associados | 10/2022</li>
+                <li><strong>Power BI</strong> | Unova Cursos | 10/2023</li>
+                <li><strong>Excel Avançado</strong> | RL&Associados | 0/2023</li>
+                <li><strong>Fundamentos da Cibersegurança</strong> | Senai | 10/2023</li>
+                <li><strong>Fundamentos Técnicos de TI</strong> | Senai | 01/2022</li>
+                <li><strong>Informática Avançada</strong> | Unova Cursos | 02/2024</li>
+                <li><strong>Microsoft Word</strong> | Unova Cursos | 02/2024</li>
+                <li><strong>Relacionamento Interpessoal</strong> | Unova Cursos | 10/2023</li>
+                <li><strong>Síndico Profissional</strong> | Unova Cursos | 2025</li>
+                <li><strong>Administração de Condomínios</strong> | IPED | 07/2025</li>
+                <li><strong>Bombeiro Civil Profissional</strong> | Emergency Consultoria | 08/2017</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2><i class="fas fa-cogs"></i> COMPETÊNCIAS</h2>
+            <ul class="skills-list">
+                <li>Trabalho em equipe</li>
+                <li>Determinado</li>
+                <li>Proativo</li>
+                <li>Boa comunicação</li>
+                <li>Otimização de Processos</li>
+                <li>Análise de Dados</li>
+                <li>Gestão de Documentos</li>
+                <li>Atendimento ao Cliente</li>
+                <li>Uso de Ferramentas Digitais (MS Office, Google Workspace)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 David Cristian Franco Francelino. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
